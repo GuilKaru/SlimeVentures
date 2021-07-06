@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d746e0082aaaaf0458b2b02bb4d45a47, type: 3}
+  m_Name: Tree_Tile_1
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 955099189262046444, guid: 0e8fe50cd7d54584e88c3ee26c0983fb,
+    type: 3}
+  m_DefaultColliderType: 1
+  m_TilingRules:
+  - m_Neighbors: 0000000002000000000000000000000000000000000000000100000000000000
+    m_Sprites:
+    - {fileID: 955099189262046444, guid: 0e8fe50cd7d54584e88c3ee26c0983fb, type: 3}
+    m_AnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_AutoTransform: 0
+    m_Output: 0
+    m_ColliderType: 1
+  - m_Neighbors: 0000000000000000000000000200000002000000000000000000000000000000
+    m_Sprites:
+    - {fileID: -6428418230609036286, guid: 0e8fe50cd7d54584e88c3ee26c0983fb, type: 3}
+    m_AnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_AutoTransform: 0
+    m_Output: 0
+    m_ColliderType: 1
